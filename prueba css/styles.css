@@ -1,0 +1,60 @@
+.encabezado {
+    text-align: center;
+    background-color: #cc0000;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 10px 20px 20px #0000002b;
+    width: 100%;
+    margin: 0;
+}
+.logo {
+    width: 20rem;
+}
+.descripcion {
+    display: grid;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.otros-modelos{
+    margin-top: 3rem;
+    justify-content: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 25rem);
+    justify-content: center;
+    background-color: #cc0000;
+    min-height: 100vh;
+
+}
+.container img,
+.container p {
+    background-color: transparent;
+}
+.enzo {
+    width: 23rem;
+    height: 25rem;
+}
+.descrip-enzo {
+    width: 23rem;
+    height: 25rem;
+}
+.roma{
+    width: 23rem;
+    height: 25rem;
+}
+.descrip-roma {
+    width: 23rem;
+    height: 23rem;
+    background-color: aqua
+}
+.purosangue {
+    width: 23rem;
+    height: 25rem;
+}
+.descrip-purosangue {
+    width: 23rem;
+    height: 25rem;
+}
